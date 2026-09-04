@@ -81,7 +81,11 @@ BarWidget {
     var weather = weatherIcon + (weatherTemp !== "" ? " " + weatherTemp : "")
     var media = hasMedia ? playIcon + " " + shortText(mediaTitle, 18) : ""
     if (vertical) return weatherIcon
-    return clock + "  ·  " + weather + (media !== "" ? "  ·  " + media : "")
+    var parts = []
+    if (weather !== "") parts.push(weather)
+    if (clock !== "") parts.push(clock)
+    if (media !== "") parts.push(media)
+    return parts.join("  ·  ")
   }
 
   function injectWeather() {
