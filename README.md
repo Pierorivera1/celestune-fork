@@ -1,4 +1,10 @@
-# Celestune Bar for Omarchy
+# Celestune Bar for Omarchy (Fork)
+
+> **Note**: This repository is a fork of [FlipZ3ro/celestune-bar](https://github.com/FlipZ3ro/celestune-bar) by oxrapzz, licensed under the GNU General Public License v3.0.
+> Modifications by Pierorivera1 (September 2026) include:
+> - Configurable clock format cycling on right-click with `SystemClock` sync and `shell.json` persistence.
+> - Removal of intrusive hover tooltip box.
+> - Center-anchor compatibility and setup documentation.
 
 A unified Omarchy bar widget containing a calendar, weather summary and
 forecast, and MPRIS media controls. Celestune Bar is built natively for
@@ -61,4 +67,7 @@ omarchy plugin remove celestune-bar
 
 ## License
 
-Celestune Bar is licensed under the GNU General Public License v3.0 only.
+Celestune Bar is licensed under the GNU General Public License v3.0 only. See [LICENSE](LICENSE) for the full license text.
+
+- Original work copyright (C) 2026 oxrapzz / FlipZ3ro.
+- Modifications copyright (C) 2026 Pierorivera1.
